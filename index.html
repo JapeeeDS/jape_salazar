@@ -128,13 +128,13 @@
       color: var(--primary); background: transparent; transition: all 0.3s;
     }
     .nav-icon-btn:hover, .nav-icon-btn.active {
-      background: var(--primary); color: var(--primary-fg); box-shadow: var(--glow);
+      background: var(--primary); box-shadow: var(--glow); color: var(--primary-fg);
     }
     .nav-icon-btn .tooltip {
       position: absolute; left: 100%; margin-left: 0.75rem; padding: 0.5rem 1rem;
-      background: var(--card); border: 1px solid var(--border); border-radius: 0.5rem;
+      background: var(--card); border: 1px solid var(--primary); border-radius: 0.5rem;
       font-size: 0.875rem; white-space: nowrap; opacity: 0; transform: translateX(-10px);
-      pointer-events: none; transition: all 0.3s;
+      pointer-events: none; transition: all 0.3s; color: var(--card-fg);
     }
     .nav-icon-btn:hover .tooltip { opacity: 1; transform: translateX(0); }
 
